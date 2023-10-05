@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Door Check</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 00;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        body.open {
+            background-color: green;
+        }
+
+        body.close {
+            background-color: red;
+        }
+
+        h1 {
+            font-size: 150px;
+        }
+
+        p {
+            font-size: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body class="open">
+    <h1>OPEN</h1>
+    <p>Next close: 8:00&nbsp;PM</p>
+</body>
+
+</html>
