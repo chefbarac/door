@@ -32,19 +32,19 @@
             background-color: red;
         }
 
-        body.open h1::after {
+        body.open h1.css-status::after {
             content: 'OPEN';
         }
 
-        body.close h1::after {
+        body.close h1.css-status::after {
             content: 'CLOSE';
         }
 
-        body.open span.open-close::after {
+        body.open span.css-open-close::after {
             content: 'close';
         }
 
-        body.close span.open-close::after {
+        body.close span.css-open-close::after {
             content: 'open';
         }
 
@@ -68,8 +68,8 @@
 </head>
 
 <body class="open">
-    <h1></h1>
-    <p>Next <span class="open-close"></span>: 12:30&nbsp;PM</p>
+    <h1 class="css-status"></h1>
+    <p>Next <span class="css-open-close"></span>: 12:30&nbsp;PM</p>
     <span class="reason">Reason: Noon break.</span>
 </body>
 
